@@ -12,6 +12,9 @@ Before building project you need to download libclang with headers
 ###Usage 
 `dfgrok class1.m class2.m ...`
 
+... or search for all classes in source tree
+``dfgrok `find . -name "*.m"` ``
+
 ... or to see a visual representation of the changed files between master and dev:
 ``dfgrok `git diff --name-status dev..master | grep "\.m" | cut -c 3-` ``
 
