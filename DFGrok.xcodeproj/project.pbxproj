@@ -279,11 +279,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFGrok/DFGrok-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/samtaylor/BTSync/llvm/tools/clang/include;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"/usr/lib/clang+llvm-3.2-x86_64-apple-darwin11/lib\"",
-					"\"$(SRCROOT)/../BTSync/llvm/Release+Asserts/lib\"",
+					/usr/local/opt/llvm/lib,
 				);
 				PRODUCT_NAME = dfgrok;
 			};
@@ -294,11 +293,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFGrok/DFGrok-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/samtaylor/BTSync/llvm/tools/clang/include;
+				HEADER_SEARCH_PATHS = /usr/local/opt/llvm/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"/usr/lib/clang+llvm-3.2-x86_64-apple-darwin11/lib\"",
-					"\"$(SRCROOT)/../BTSync/llvm/Release+Asserts/lib\"",
+					/usr/local/opt/llvm/lib,
 				);
 				PRODUCT_NAME = dfgrok;
 			};

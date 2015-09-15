@@ -226,10 +226,9 @@
         }];
     }
     
-    
     // Append colour
     if ([colourName length]) {
-        code = [NSString stringWithFormat:@"%@{bg:%@}", code, colourName];
+        code = [NSMutableString stringWithFormat:@"%@{bg:%@}", code, colourName];
     }
     
     return [NSString stringWithFormat:@"[%@]", code];
