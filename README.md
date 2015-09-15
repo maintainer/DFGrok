@@ -3,6 +3,12 @@ DFGrok
 
 Generates yUML ( http://yuml.me/ ) code from Objective-C++.  [Download latest build](https://github.com/darkFunction/DFGrok/releases) (OSX)
 
+###Build
+
+Before building project you need to download libclang with headers
+
+`brew install --with-clang --all-targets --rtti --universal --jit llvm`
+
 ###Usage 
 `dfgrok class1.m class2.m ...`
 
